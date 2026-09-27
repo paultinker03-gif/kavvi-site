@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en" data-theme="light">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <title>Kavvi — every renewal, one calm place</title>
+    <link rel="canonical" href="https://kavvi.app/" />
+    <meta name="description" content="Kavvi keeps every date that comes round again, from MOT and insurance to passports and subscriptions, and tells you before it is due. Private by design: your renewals stay on your phone." />
+    <meta property="og:title" content="Kavvi — every renewal, one calm place" />
+    <meta property="og:description" content="Kavvi keeps every date that comes round again, from MOT and insurance to passports and subscriptions, and tells you before it is due. Private by design: your renewals stay on your phone." />
+    <meta property="og:type" content="website" />
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400..800&display=swap" />
+    <script>
+      // Set the theme before first paint so a dark-mode visitor never sees a white flash.
+      try {
+        var saved = localStorage.getItem('kavvi-site.theme');
+        var dark = saved ? saved === 'dark' : matchMedia('(prefers-color-scheme: dark)').matches;
+        document.documentElement.setAttribute('data-theme', dark ? 'dark' : 'light');
+        document.documentElement.style.colorScheme = dark ? 'dark' : 'light';
+      } catch (e) {}
+    </script>
+    <script type="module" crossorigin src="/assets/main-DcmahFHT.js"></script>
+  </head>
+  <body data-page="home">
+    <div id="root"></div>
+  </body>
+</html>
